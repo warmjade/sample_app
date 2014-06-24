@@ -1,3 +1,6 @@
+# helper functions used by both controller and view.
+# helpers are available in views by default.
+# need to explicity include helpers in application controller.
 module SessionsHelper
     def signed_in?
         !current_user.nil?
